@@ -11,7 +11,7 @@ angular.module('rApp')
     .controller('ReferidoCtrl', function($window, $scope, $routeParams, ezfb,$http) {
         $scope.idReferido = $routeParams.idReferido;
 
-        var BASE_URL = 'http://localhost:8000';
+        var BASE_URL='http://galf.com/Cingle/public';
         $scope.enregister=true;
         obtener_info($scope.idReferido);
 
