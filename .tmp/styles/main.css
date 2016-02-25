@@ -1,0 +1,171 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url('../images/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+/*FUENTES*/
+@font-face {
+  font-family: 'Chrome-Black';
+  src: url('../fonts/Chrome-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato-Bla';
+  src: url('../fonts/Lato-Bla.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-BlaIta';
+  src: url('../fonts/Lato-BlaIta.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-Bol';
+  src: url('../fonts/Lato-Bol.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-BolIta';
+  src: url('../fonts/Lato-BolIta.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-Hai';
+  src: url('../fonts/Lato-Hai.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-HaiIta';
+  src: url('../fonts/Lato-HaiIta.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-Lig';
+  src: url('../fonts/Lato-Lig.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-LigIta';
+  src: url('../fonts/Lato-LigIta.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-Reg';
+  src: url('../fonts/Lato-Reg.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Lato-Reg';
+  src: url('../fonts/Lato-Reg.otf') format('opentype');
+}
+/* */
+.logo_cingle {
+    margin-top: 20px;
+    width: 190px;
+    height: 59px;
+    background: url('../images/final_cingle.png')no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.centrar{
+	text-align: center;
+}
+.bla{
+	color: white;
+}
+.welcome{
+	font-family: 'Lato-Lig';
+	font-size: 35px;
+	margin-top: 25px;
+	margin-bottom:15px;
+}
+.fotoreferido{
+	width:100px; 
+	height:100px;
+	border-radius: 100%;
+	/*background: url('http://40.media.tumblr.com/96467906062eece51c1c51b101e86db7/tumblr_nm91voyN9k1r6fuwko1_400.jpg');
+	*/background-size: cover;
+	background-color: white;
+	margin: 0 auto; 
+}
+.nombrec{
+	font-family: 'Lato-Reg';
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+.light{
+	font-family: 'Lato-Lig';
+	font-size: 18px;
+}
+.bld{
+	font-family: 'Lato-Bol';
+}
+.thin{
+	font-family: 'Lato-Lig';
+	font-size: 11px;
+	margin: 0;
+	margin-top: -5px;
+}
+.btnfb{
+	cursor: pointer;
+	width: 270px;
+	height: 50px;
+	background-color: #3b5998;
+	color: white;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom:15px;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 15px;
+}
+.icofb {
+    background: url('../images/social36.png');
+    height: 25px;
+    width: 25px;
+    position: fixed;
+    background-size: cover;
+    /* left: 1px; */
+    padding: 0px;
+    margin-left: -28px;
+    margin-top: -2px;
+}
+.btnfb:hover{
+	background-color: #244790;
+box-shadow: inset 14px 14px 81px -27px rgba(0,0,0,0.75);
+}
+
+.down{
+  font-size: 23px;
+    padding-top: 15px;
+}
+.shots{
+  font-family: 'Lato-Bol';
+}
+.firstname{
+  font-family: 'Lato-Bol';
+
+}
+.mediasocial{
+  padding-top: 30px;
+  width: 330px;
+  margin: 0 auto;
+}
+.appstore {
+    background: url('../images/appstore.png');
+    height: 55px;
+    width: 155px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+}
+
+.playstore {
+    background: url('../images/play.png');
+    height: 55px;
+    background-repeat: no-repeat;
+    width: 165px;
+    background-size: cover;
+    float: right;
+  opacity: 1;
+}
+.appstore:hover{
+    opacity: 0.4;
+} 
+.playstore:hover{
+  opacity: 0.4;
+}

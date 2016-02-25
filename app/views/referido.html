@@ -1,0 +1,73 @@
+<div class="container-fluid" ng-show="enregister">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="logo_cingle"></div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="centrar bla welcome" > Welcome to Cingle </div> 
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="fotoreferido" ng-style="{'background-image': 'url(' + nombre_foto + ')'}"> </div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="centrar bla nombrec">{{nombre_fb}}</div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="centrar bla light"> Invited you to join <span class="bld"> Cingle</span>.</div>
+            <div class="centrar bla light"> Join and find where singles party!</div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 " ng-hide="loginStatus.status == 'connected'">
+            <div class="btnfb" ng-click="login()">
+                <span class="icofb">
+                </span>
+                &nbsp;&nbsp;Inicia sesión con Facebook
+            </div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-3 " ng-hide="loginStatus.status != 'connected'">
+            <div class="btnfb" ng-click="registro()">
+            	<span class="icofb">
+            	</span>
+            	&nbsp;&nbsp;Continuar
+            </div>
+        </div>
+
+        <!--<div class="col-md-5 col-md-offset-3 ">
+        <div class="" ng-click="logout()">Adios</div>
+            <div class="centrar bla thin" >  We'll never post anything on your wall</div>
+        </div>
+
+
+        <div style="color:white;">
+{{loginStatus.status}}
+        </div>-->
+    </div>
+</div>
+
+<div class="container-fluid" ng-show="!enregister">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="logo_cingle"></div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="centrar bla welcome" > Welcome, <span class="firstname">{{apiMe.first_name}}</span></div> 
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="fotoreferido" ng-style="{'background-image': 'url(' + fotofinalfb + ')'}"> </div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="centrar bla light down">DOWNLOAD NOW</div>
+        </div>
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="centrar bla light "> and get <span style="color:#f86065;" class="shots">15 shots </span>to start flirting!</div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-3 ">
+            <div class="mediasocial">
+              <div class="col-md-6 playstore" ng-click="playstore()"></div>
+              <div class="col-md-6 appstore" ng-click="appstore()"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
