@@ -109,6 +109,7 @@ angular.module('rApp')
             $scope.registro.append('fbDeviceToken', Math.random()); //TODO retornar numero
             $scope.registro.append('latitude', 0);
             $scope.registro.append('longitude', 0);
+            $scope.registro.append('referido',$scope.idReferido);
             $scope.registro.append('email', $scope.apiMe.email);
             $scope.registro.append('nombre', $scope.apiMe.name);
             $scope.registro.append('apellido', $scope.apiMe.last_name);
