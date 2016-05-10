@@ -95,10 +95,10 @@ angular.module('rApp')
             });
         }
         $scope.playstore= function(){
-          window.location = "http://www.google.com/"
+          window.location = "http://bit.ly/CingleRef"
         }
         $scope.appstore= function(){
-          window.location = "http://www.google.com/"
+          window.location = "http://bit.ly/CingleRef"
         }
         $scope.registro = function() {
             // body...
